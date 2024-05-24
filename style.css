@@ -1,0 +1,90 @@
+/* styles.css */
+:root {
+    font-size: 16px;
+    --primary-color: #2E7D32; /* Verde escuro */
+    --primary-text-color: #FFFFFF; /* Branco */
+    --background-color: #f9f9f9; /* Cinza claro */
+    --border-color: #888888; /* Cinza médio */
+    --hover-color: #1B5E20; /* Verde ainda mais escuro */
+    --focus-color: #1565C0; /* Azul escuro */
+    --button-text-color: #FFFFFF; /* Branco */
+    --icon-color: #000000; /* Preto */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    max-width: 50rem; /* equivalente a 800px */
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--border-color);
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--hover-color);
+    border-color: var(--focus-color);
+}
+
+button:focus {
+    outline: none;
+    border-color: var(--focus-color);
+}
+
+.students-list {
+    background-color: var(--background-color);
+    padding: 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.3rem;
+    width: 100%;
+    max-height: 25rem; /* equivalente a 400px */
+    overflow-y: auto;
+}
+
+@media (max-width: 37.5rem) { /* equivalente a 600px */
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Estilos para ícones */
+.icon {
+    color: var(--icon-color);
+}

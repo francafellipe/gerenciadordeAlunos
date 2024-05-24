@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Gerenciamento de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Alunos</h1>
+    </header>
+    <main>
+        <section class="buttons" role="region" aria-label="Controles de gerenciamento de alunos">
+            <button id="buttonadd" aria-label="Adicionar Aluno">Adicionar Aluno</button>
+            <button id="buttonremover" aria-label="Remover Aluno">Remover Aluno</button>
+            <button id="buttonatualizar" aria-label="Atualizar Notas">Atualizar Notas</button>
+            <button id="buttonmostrar" aria-label="Mostrar Alunos">Mostrar Alunos</button>
+        </section>
+        <section id="listaalunos" class="students-list" role="region" aria-live="polite" aria-label="Lista de alunos"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
