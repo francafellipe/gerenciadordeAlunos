@@ -12,5 +12,4 @@
 - **Atributos ARIA**: O atributo aria-label foi utilizado para fornecer uma descrição acessível para a navegação principal, melhorando a compreensão do conteúdo para leitores de tela.
 
 - **Cabeçalhos Semânticos**: Foram utilizados elementos de cabeçalho <h1>, <h2>, etc., de forma apropriada para estruturar o conteúdo da página de forma semântica, facilitando a navegação e compreensão do conteúdo para usuários de tecnologias assistivas.
-
 - Essas são algumas das soluções de acessibilidade aplicadas no exemplo fornecido, garantindo que o conteúdo seja acessível e compreensível para todos os usuários, independentemente de suas habilidades ou deficiências.
